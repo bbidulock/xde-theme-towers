@@ -87,7 +87,9 @@ window manager:
 
 ![adwm.jpg](scrot/adwm.jpg "Wallpaper #6")
 
-Following are the eight wallpapers included in the theme:
+Following are the eight wallpapers included in the theme (consisting
+primarily of shots I took of towers around Alberta using an old Canon
+PowerShot):
 
 ![tower_bluesky4.jpg](images/tower_bluesky4.jpg "Wallpaper #1")
 ![tower_field1.jpg](images/tower_field1.jpg "Wallpaper #2")
