@@ -1,3 +1,6 @@
+---
+layout: default
+---
 [xde-theme-towers -- read me first file.  2014-09-12]: #
 
 xde-theme-towers

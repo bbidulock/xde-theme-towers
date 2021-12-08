@@ -1,0 +1,123 @@
+# created with git log --stat=76 -M -C -500|fmt -sct -w80
+
+commit 2a23170703afd8cd4b9233804a6bc20ef354f806
+Author: Brian Bidulock <bidulock@openss7.org>
+Date:   Fri Sep 12 15:39:44 2014 -0600
+
+    added adwm style
+
+ Makefile.am        | 34 ++++++++++++++++++----------------
+ configure.template |  6 ++++++
+ 2 files changed, 24 insertions(+), 16 deletions(-)
+
+commit b56dd238662deda3ee34b628e59d0cca5eb2da25
+Author: Brian Bidulock <bidulock@openss7.org>
+Date:   Sun Aug 17 17:18:24 2014 -0600
+
+    add themerc file
+
+ Makefile.am   |  3 +-
+ theme/themerc | 82 +++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 2 files changed, 84 insertions(+), 1 deletion(-)
+
+commit 54319f3ac3b6ba664393477a3ec3a7a521a0851f
+Author: Brian Bidulock <bidulock@openss7.org>
+Date:   Sat Jan 25 05:15:50 2014 -0700
+
+    added waimea support
+
+ Makefile.am        | 32 +++++++++++++++++---------------
+ configure.template |  6 ++++++
+ 2 files changed, 23 insertions(+), 15 deletions(-)
+
+commit 4bdac25b67a92ae51d7e0d0c7e491496df19ebdf
+Author: Brian Bidulock <bidulock@openss7.org>
+Date:   Mon Dec 23 17:53:30 2013 -0700
+
+    updated description
+
+ README | 5 +++--
+ 1 file changed, 3 insertions(+), 2 deletions(-)
+
+commit 0286bd0b21219db4f77fa4168df3469774b7046b
+Author: Brian Bidulock <bidulock@openss7.org>
+Date:   Mon Dec 23 15:13:44 2013 -0700
+
+    initial commit
+
+ .gitignore                             |  12 +++
+ AUTHORS                                |   3 +
+ COPYING                                |  58 +++++++++++++
+ Makefile.am                            |  99 +++++++++++++++++++++++
+ NEWS                                   |  13 +++
+ README                                 |  65 +++++++++++++++
+ THANKS                                 |   3 +
+ autogen.sh                             |  19 +++++
+ configure.template                     | 126 +++++++++++++++++++++++++++++
+ images/array_rooftop1.jpg              | Bin 0 -> 280848 bytes
+ images/choice/hoghorns_sillouette6.jpg |   1 +
+ images/choice/tower_backlit1.jpg       |   1 +
+ images/choice/tower_bluesky4.jpg       |   1 +
+ images/choice/tower_clouds1.jpg        |   1 +
+ images/choice/tower_field1.jpg         |   1 +
+ images/choice/tower_sky2.jpg           |   1 +
+ images/good/hoghorns_sillouette6.jpg   |   1 +
+ images/good/hoghorns_sillouette7.jpg   |   1 +
+ images/good/tower_backlit1.jpg         |   1 +
+ images/good/tower_bluesky4.jpg         |   1 +
+ images/good/tower_clouds1.jpg          |   1 +
+ images/good/tower_field1.jpg           |   1 +
+ images/good/tower_flatsky.jpg          |   1 +
+ images/good/tower_greysky3.jpg         |   1 +
+ images/good/tower_ring.jpg             |   1 +
+ images/good/tower_sillouette3.jpg      |   1 +
+ images/good/tower_sky2.jpg             |   1 +
+ images/hoghorns_sillouette1.jpg        | Bin 0 -> 352291 bytes
+ images/hoghorns_sillouette2.jpg        | Bin 0 -> 339199 bytes
+ images/hoghorns_sillouette3.jpg        | Bin 0 -> 341885 bytes
+ images/hoghorns_sillouette4.jpg        | Bin 0 -> 268043 bytes
+ images/hoghorns_sillouette5.jpg        | Bin 0 -> 301053 bytes
+ images/hoghorns_sillouette6.jpg        | Bin 0 -> 329688 bytes
+ images/hoghorns_sillouette7.jpg        | Bin 0 -> 329649 bytes
+ images/oldchoice/tower_bluesky4.jpg    |   1 +
+ images/oldchoice/tower_clouds1.jpg     |   1 +
+ images/oldchoice/tower_clouds2.jpg     |   1 +
+ images/oldchoice/tower_fence.jpg       |   1 +
+ images/oldchoice/tower_flatsky.jpg     |   1 +
+ images/oldchoice/tower_greysky1.jpg    |   1 +
+ images/oldchoice/tower_sillouette4.jpg |   1 +
+ images/tower_backlit1.jpg              | Bin 0 -> 330090 bytes
+ images/tower_backlit2.jpg              | Bin 0 -> 341155 bytes
+ images/tower_backlit3.jpg              | Bin 0 -> 325255 bytes
+ images/tower_backlit4.jpg              | Bin 0 -> 310948 bytes
+ images/tower_bluesky1.jpg              | Bin 0 -> 365768 bytes
+ images/tower_bluesky2.jpg              | Bin 0 -> 334794 bytes
+ images/tower_bluesky3.jpg              | Bin 0 -> 343625 bytes
+ images/tower_bluesky4.jpg              | Bin 0 -> 300712 bytes
+ images/tower_clouds1.jpg               | Bin 0 -> 291006 bytes
+ images/tower_clouds2.jpg               | Bin 0 -> 248251 bytes
+ images/tower_clouds3.jpg               | Bin 0 -> 443220 bytes
+ images/tower_dusk.jpg                  | Bin 0 -> 292945 bytes
+ images/tower_fence.jpg                 | Bin 0 -> 366545 bytes
+ images/tower_field1.jpg                | Bin 0 -> 351774 bytes
+ images/tower_field2.jpg                | Bin 0 -> 375670 bytes
+ images/tower_field3.jpg                | Bin 0 -> 386151 bytes
+ images/tower_flatsky.jpg               | Bin 0 -> 290232 bytes
+ images/tower_greysky1.jpg              | Bin 0 -> 231644 bytes
+ images/tower_greysky2.jpg              | Bin 0 -> 232612 bytes
+ images/tower_greysky3.jpg              | Bin 0 -> 231216 bytes
+ images/tower_horns1.jpg                | Bin 0 -> 441871 bytes
+ images/tower_ring.jpg                  | Bin 0 -> 256404 bytes
+ images/tower_sillouette1.jpg           | Bin 0 -> 322062 bytes
+ images/tower_sillouette2.jpg           | Bin 0 -> 332594 bytes
+ images/tower_sillouette3.jpg           | Bin 0 -> 313254 bytes
+ images/tower_sillouette4.jpg           | Bin 0 -> 316117 bytes
+ images/tower_sky.jpg                   | Bin 0 -> 157415 bytes
+ images/tower_sky1.jpg                  | Bin 0 -> 265927 bytes
+ images/tower_sky2.jpg                  | Bin 0 -> 267115 bytes
+ images/tower_sky3.jpg                  | Bin 0 -> 266664 bytes
+ images/tower_sky4.jpg                  | Bin 0 -> 258973 bytes
+ images/tower_tree.jpg                  | Bin 0 -> 406553 bytes
+ theme/style                            |  53 ++++++++++++
+ theme/theme.ini                        |  85 +++++++++++++++++++
+ 75 files changed, 560 insertions(+)
